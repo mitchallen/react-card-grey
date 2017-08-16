@@ -2,8 +2,8 @@ language: node_js
 node_js:
   - "stable"
 before_install:
-- npm install -g jest jest-cli
+ - npm install -g jest jest-cli
 script:
-  - npm run test-coverage
+  - npm test
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -e TRAVIS_NODE_VERSION
