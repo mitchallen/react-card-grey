@@ -7,6 +7,13 @@ module.exports = {
     libraryTarget: 'commonjs2'
   },
   module: {
+    loaders: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loaders: ["babel-loader"],
+      }
+    ],
     rules: [
       {
         test: /\.js$/,
