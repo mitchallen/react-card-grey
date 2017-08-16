@@ -93,9 +93,12 @@ import CardGrey from '@mitchallen/react-card-grey';
 
 __NOTE:__ CardGrey must be Capitalized or component won't render.
 
-2: Somewhere in the middle of the __render__ method add this line:
+2: Somewhere in the middle of the __render__ method add this code:
 
 ```
+<CardGrey>
+    <p style={{ color: '#FFFFFF'}}>Hello World!</p>
+</CardGrey>
 <CardGrey />
 ```
 
