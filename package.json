@@ -2,7 +2,7 @@
   "name": "@mitchallen/react-card-grey",
   "version": "0.1.0",
   "description": "CardGrey component",
-  "main": "build/index.js",
+  "main": "build/index.jsx",
   "scripts": {
     "pretest": "npm run build",
     "test": "mocha --compilers js:babel-register --require ./test/helpers.js --require ./test/dom.js --recursive",
