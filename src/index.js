@@ -19,8 +19,9 @@ const paperStyle = {
 
 // import PropTypes from 'prop-types';
 
-const CardGrey = ({ children, ...props }) => (
+// const CardGrey = ({ children, ...props }) => (
 
+const CardGrey = ({ children }) => (
   <div>
    <MuiThemeProvider>
       <Paper style={paperStyle} zDepth={5}>    
