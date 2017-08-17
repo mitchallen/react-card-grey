@@ -2,6 +2,7 @@ dist: precise
 language: node_js
 node_js:
   - "stable"
+skip_cleanup: true
 before_install:
   - npm install -g jest jest-cli
   - lsb_release -a
