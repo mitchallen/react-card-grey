@@ -1,12 +1,12 @@
 dist: precise
 language: node_js
 node_js:
-  - "6.0.0"
+  - "stable"
 skip_cleanup: true
 before_install:
   - lsb_release -a
 script:
-  - webpack -p
+  - webpack -p --config ./webpack.config.js
   # - npm run build
   # - npm test
 after_success:
