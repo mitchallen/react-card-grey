@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "stable"
 before_install:
- - npm install -g react react-dom jest jest-cli
+  - npm install -g jest jest-cli
 script:
   - npm test
 after_success:
