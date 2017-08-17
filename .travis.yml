@@ -1,7 +1,7 @@
 dist: precise
 language: node_js
 node_js:
-  - "8.4.0"
+  - "6.0.0"
 skip_cleanup: true
 before_install:
   - lsb_release -a
