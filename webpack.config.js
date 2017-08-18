@@ -15,12 +15,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: [ "env", "stage-0", "react" ],
-            plugins: [
-              "babel-plugin-transform-decorators-legacy",
-              "babel-plugin-transform-react-jsx",
-              "babel-plugin-transform-object-rest-spread"
-            ]
+            presets: ['env','react']
           }
         }
       }
