@@ -1,6 +1,6 @@
 {
   "name": "@mitchallen/react-card-grey",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CardGrey component",
   "main": "build/index.jsx",
   "scripts": {
