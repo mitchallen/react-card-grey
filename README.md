@@ -4,8 +4,8 @@ CardGrey React component
 --
 
 <p align="left">
-  <a href="https://travis-ci.org/mitchallen/react-card-grey">
-    <img src="https://img.shields.io/travis/mitchallen/react-card-grey.svg?style=flat-square" alt="Continuous Integration">
+  <a href="https://circleci.com/gh/mitchallen/react-card-grey">
+    <img src="https://img.shields.io/circleci/project/github/mitchallen/react-card-grey.svg" alt="Continuous Integration">
   </a>
   <a href="https://codecov.io/gh/mitchallen/react-card-grey">
     <img src="https://codecov.io/gh/mitchallen/react-card-grey/branch/master/graph/badge.svg" alt="Coverage Status">
@@ -129,6 +129,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 * * *
 
 ## Version History
+
+#### Version 0.1.1 
+
+* Switched badge to CircleCI
 
 #### Version 0.1.0 
 
