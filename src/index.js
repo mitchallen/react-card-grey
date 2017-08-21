@@ -4,6 +4,7 @@
 */
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 // import { withRouter } from 'react-router-dom';
 import Paper from 'material-ui/Paper';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -16,8 +17,6 @@ const paperStyle = {
   display: 'inline-block',
   backgroundColor: 'rgba(0, 0, 0, 0.5)'
 };
-
-// import PropTypes from 'prop-types';
 
 // const CardGrey = ({ children, ...props }) => (
 
@@ -38,5 +37,17 @@ CardGrey.propTypes = {
 // CardGrey.propTypes = {
 //   // someProp: PropTypes.isRequired,
 // };
+
+const x = 1;
+
+const Fubar = ({ children }) => (
+  <div>
+   <MuiThemeProvider>
+      <Paper style={paperStyle} zDepth={5}>    
+        {children}
+      </Paper>
+    </MuiThemeProvider>
+  </div>   
+);
 
 export default CardGrey;
