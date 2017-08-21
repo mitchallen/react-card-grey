@@ -40,6 +40,8 @@ CardGrey.propTypes = {
 
 const x = 1;
 
+const y = x ? "true" : "false";
+
 const Fubar = ({ children }) => (
   <div>
    <MuiThemeProvider>
