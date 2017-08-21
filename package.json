@@ -7,6 +7,7 @@
     "pretest": "npm run build",
     "test": "mocha --compilers js:babel-register --require ./test/helpers.js --require ./test/dom.js --recursive",
     "coverage": "babel-node ./node_modules/.bin/isparta cover --include 'src/**/*.js*' _mocha",
+    "validate-codecov-yml": "curl --data-binary @.codecov.yml https://codecov.io/validate",
     "start": "webpack --watch",
     "build": "webpack -p",
     "tdd": "npm test -- --watch",
