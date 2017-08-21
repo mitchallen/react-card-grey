@@ -18,6 +18,11 @@ const paperStyle = {
   backgroundColor: 'rgba(0, 0, 0, 0.5)'
 };
 
+// temp code coverage test
+function myFunction(p1, p2) {
+    return p1 * p2;              // The function returns the product of p1 and p2
+}
+
 // const CardGrey = ({ children, ...props }) => (
 
 const CardGrey = ({ children }) => (
