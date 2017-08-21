@@ -38,18 +38,4 @@ CardGrey.propTypes = {
 //   // someProp: PropTypes.isRequired,
 // };
 
-const x = 1;
-
-const y = x ? "true" : "false";
-
-const Fubar = ({ children }) => (
-  <div>
-   <MuiThemeProvider>
-      <Paper style={paperStyle} zDepth={5}>    
-        {children}
-      </Paper>
-    </MuiThemeProvider>
-  </div>   
-);
-
 export default CardGrey;
