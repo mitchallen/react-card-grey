@@ -130,6 +130,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.1.3
+
+* Added examples folder with example
+
 #### Version 0.1.2 
 
 * Fixed index reference in package.json
