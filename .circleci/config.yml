@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
-      - run: add install react
+      - run: yarn add react
 
       - save_cache:
           paths:
