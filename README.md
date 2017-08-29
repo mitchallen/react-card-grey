@@ -130,6 +130,12 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.1.4
+
+* Removed duplicate react dependency, now only exists in peerDependencies
+* Replace reference to React.PropType with ref to prop-types
+* Cleaned up test case
+
 #### Version 0.1.3
 
 * Added examples folder with example

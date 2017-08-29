@@ -31,11 +31,7 @@ const CardGrey = ({ children }) => (
 );
 
 CardGrey.propTypes = {
-  children: React.PropTypes.object
+  children: PropTypes.object
 };
-
-// CardGrey.propTypes = {
-//   // someProp: PropTypes.isRequired,
-// };
 
 export default CardGrey;

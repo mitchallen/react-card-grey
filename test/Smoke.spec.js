@@ -1,16 +1,16 @@
 import React from 'react';
-import Test3 from '../src/index';
+import CardGrey from '../src/index';
 import ShallowRenderer from 'react-test-renderer/shallow';
 // import chai from 'chai';
 import Chai from 'chai';
 
 var expect = Chai.expect;
 
-describe('Test3', () => {
+describe('CardGrey', () => {
   // const wrapper = shallow(<Test3 />);
 
   const renderer = new ShallowRenderer();
-  renderer.render(<Test3 />);
+  renderer.render(<CardGrey />);
   const result = renderer.getRenderOutput();
 
 
