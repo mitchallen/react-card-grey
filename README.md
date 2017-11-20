@@ -130,6 +130,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 ## Version History
 
+#### Version 0.1.7
+
+* updated react peer dependency to allow for 16.x
+
 #### Version 0.1.6
 
 * Fixed command in ```.circleci/config.yml```
